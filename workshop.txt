@@ -1,0 +1,73 @@
+Conversational Interface                                                        ***( icognito )
+
+1.    m.me/Dominos                   (DOM Bot)
+2.    www.messenger.com
+
+ELIZA first bot created by Jjosept Weizenbaum pass the turing test
+Turing test - if bots pass the test
+1990 - the lober prize
+
+reteival based model   if , else 
+generative model       become intelligent,improve himself
+
+
+
+Retrival model using node js  (server side)
+1. create nodejs project = cbsbot
+	$ mkdir cbsbot
+2. change to cbs dir
+$ cd cbsbot
+3. intilize node pro
+ $ npm init
+
+4. install lib : restify,botify                         node package manager
+	$ npm install --save restify   (client -server communication)
+	$npm install --save botbuilder   (repond and req)  dialog based format 
+
+5. get started with code in a file cbsbot.js
+.............................
+	code descrip
+	1. require lib
+	2. create a server to listen on a port no. 4567
+	3. create a chatconnector    // get and post se server pe save ho jayega and receive the req from server and convert into json formaat and  respond accordingly(REST)   server to bot
+	4. create a universalbot and connect to chatconnector       //correct respponse and give it back to client using dialog
+	5. receive a post reqist from user and send to chatconnector 
+	6. universal bot will respond with a dialog back to user
+	
+	//execute your bot
+		$ node cbsbot.js
+	// client will connect to bot using bot emulator
+		http://localhost:4567/
+
+
+1.0.0         1 = major version
+	      0 = minor version
+		0 = patch number	
+
+
+
+REST : Representaional staate transfetr
+data will be represneted in test format
+data= hello
+{
+	message:{
+		text:"hello"
+		size: 2048 byte
+	}
+}
+
+
+case sensitive
+
+
+
+................................................................................................
+
+perception computing    (Machine Learning)
+
+computer vision :
+	device: depthsense camera: distance
+	conventional camera: distinguish onject
+	graphic + audio
+
+intel perception computing sdk: intel PCSDK

@@ -1,0 +1,62 @@
+def func(a,b,c):
+	sos='...---...'
+	for i in sos
+
+
+
+from kivy.app import App
+>>> app=App.get_running_app()
+>>> nav=app.root
+>>> window=nav.parent
+>>> window.remove_widget(nav)
+>>> from kivy.uix.button import Button
+>>> mybut=Button(text="test")
+>>> window.add_widget(mybut)
+
+
+mybox = Builder.load_string("""
+BoxLayout:
+	source:''
+	Image:
+		source: root.source
+	Button:
+		text: 'hello'myimg
+""")
+window.add_widget(mybox)
+
+myimg=Builder.load_string("""
+AsyncImage
+	source:'icon.png'
+""")
+windowwindow.add_widget(myimg)
+
+
+
+
+
+
+
+mysctr=Builder.load_string("""
+Scatter
+	size:img.size
+	AsyncImage
+		size:1024,768
+		source:'icon.png'
+""")
+window.add_widget(mysctr)
+
+
+
+from kivy.app import App
+app=App.get_running_app()
+nav=app.root
+window=nav.parent
+window.remove_widget(nav)
+...........................................................
+
+
+mybutton=Builder.load_string("""
+Button
+	on_press:flash.on()
+	on_release:falsh.off()
+""")
