@@ -18,7 +18,7 @@ Retrival model using node js  (server side)
 2. change to cbs dir
 $ cd cbsbot
 3. intilize node pro
- $ npm init
+$ npm init
 
 4. install lib : restify,botify                         node package manager
 	$ npm install --save restify   (client -server communication)
